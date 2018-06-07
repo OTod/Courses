@@ -1,0 +1,98 @@
+body,html{
+	margin: 0;
+
+}
+
+.gradient{
+	height: 150px;
+	border:1px solid black;
+
+background: #b4e391; /* Old browsers */
+background: -moz-linear-gradient(top, #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+}
+
+.box-shadow{
+	margin-top: 50px;
+	height: 50px;
+	border: 1px solid red;
+	/**/
+	box-shadow: 0px 0px 5px 5px #000;
+	/*смещение по х, смещение по у, радиус размытия, ширина тени, цвет тени*/
+	box-shadow: inset 0 0 5px 5px #000;
+	/*инсет - внутренняя тень*/
+	box-shadow: inset 0 0 5px 5px #000, inset 0 0 5px 5px red;
+	/*комбинированная тень*/
+	box-shadow: 0 0 5px 5px #000, 0 0 5px 5px red;
+	/*комбинированная тень*/
+}
+.transform{
+	margin: 0 auto; /*выравнивает по центру*/
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	/*rotate*/
+
+	transform: scaleX(2);/*changes scale by x axis*/
+	transform: translate(100px,100px);/*shift by x and y*/
+	transform: translateX(100px);/*shift by x*/
+
+	transform: skewX(45deg);/*sweeps lower and upper edges by X*/
+	transform: skewY(45deg);/*sweeps left and right by Y*/
+	transform: matrix(0,6,1,1,0,3,0,0) rotateY(-239deg);
+
+	-webkit-transform-origin:0 0;
+	-ms-transform-origin:0 0;
+	-moz-transform-origin:0 0;
+	-o-transform-origin:0 0;
+	transform-origin:0 0;
+	transform: rotate(45deg);
+
+	transition: all .5s linear;
+
+	padding-top: 100px;
+	height: 50px;
+	width:100px;
+	background: red;
+
+}
+@keyframes colors {
+	0% {
+		background: red;
+	}
+	
+	30%
+		{
+		background: green;
+		}
+	
+	60%{
+		background: yellow;
+	}
+	
+	
+	100%{
+		background: blue;
+	}
+
+}
+.keyFrames2{
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+	animation: colors 1s linear infinite;
+	margin-top: 100px;
+}
+button{
+	height: 200px;
+	width: 500px;
+}
+button{
+	transition: background .5s linear;
+	background: white;
+}
+button:hover{
+	background: dodgerblue;
+}

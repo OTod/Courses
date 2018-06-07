@@ -1,0 +1,18 @@
+body{
+	margin:0;
+}
+div{
+	border: 1px solid red;
+	padding: 5px 5px 5px 5px;/*вверху вправо внизу слева*/
+	padding: 5px 10px;/*низ/верх и лево/право*/
+	padding: 5px 10px 15px;/*верх лево/право и низ*/
+	padding: 5px;/*все по 5*/
+	padding: 20%;/*считает от исходной ширмны блока без паддинга*/
+	margin: 20%;
+	margin-bottom: 20%;
+}
+span{
+	font-size: 20px;
+	font-weight: bolder;
+	color: red;
+}

@@ -1,0 +1,64 @@
+body{
+	margin:0;
+}
+/*.container{
+	display: flex;
+
+}
+
+/*Соотношение размеров, по 1 части на каждый элемент. Ширину при этом можно не указывать.*/
+/*.container div{
+	flex: 1;
+	height: 30px;
+}
+
+
+/*оследнему диву дали половину части*/
+/*.container div:last-child{
+	flex: 0.5;
+}
+
+#div1{
+	background:yellow;
+	height: 30px;
+}
+
+#div2{
+	background:orange;
+	height:30px;
+}
+
+#div3{
+	background:red;
+	height: 30px;
+}*/
+
+
+
+#div1{
+	background: yellow;
+	height: 30px;
+	width: 33.33%;
+	display: inline-block;
+	float: left;
+
+}
+
+#div2{
+	background: orange;
+	height: 30px;
+	width: 33.33%;
+	display: inline-block;
+	float: left;
+	clear: both;
+
+}
+#div3{
+	background: red;
+	height: 30px;
+	width: 33.33%;
+	display: inline-block;
+	float: left;
+
+}
+

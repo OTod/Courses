@@ -1,0 +1,106 @@
+}
+html,body{
+	height:100%;
+
+}
+
+body{
+	margin: 0;
+	font-size: 20px;
+}
+
+header{
+	font-size: 0.8em;
+	height: 10em;
+	background: #666666;
+}
+aside{
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+content{	
+	width: 70%;
+	display:inline-block;
+	float: left;
+	min-height: 25em;
+}
+footer{
+	clear:both;
+	height: 50px;
+	background: darkgrey;
+	
+
+
+	
+}
+button.small{
+	font-size: 1em;
+	min-width: 6em;
+	height: 2em;
+
+}
+@media all and (max-width:500px){
+	body{
+		font-size: 8px
+	}
+	button.small{
+		font-size:2em;
+		float: center;
+	}
+}
+
+.menue{
+	
+	display: inline-block;
+	background-size: contain; 
+	background-repeat: no-repeat;
+
+	position : relative;
+	bottom: 1em;
+	left: 23em;
+}
+div{
+	
+	display: inline-block;
+	background-size: contain; 
+	background-repeat: no-repeat;
+	
+}
+
+
+.string{
+	display:inline-block;
+	margin: 20px;
+}
+
+.topMenue{
+	padding: 10px;
+	margin: 10px;
+	float: right;
+	font-size: 2em;
+	
+
+
+}
+img{
+	width: 10em;
+	height: 10em;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#div2{
+	background: green;
+	height: 15px; /* способ обратиться к елементу через айди*/
+}
+[data-div3]   /*способ обращения к елементу через атрибубут который мы сами задаем*/{
+	background: green;
+	height: 15px;
+}
+p{
+	margin-right: 5em;
+}
