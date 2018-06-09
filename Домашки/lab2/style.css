@@ -1,18 +1,46 @@
 
+@font-face {
+    font-family: DSWalbaumfraktur;
+    src: url(DSWalbaumfraktur.ttf);
+
+}
+
+
 html.body{
     margin:0;
+    width: 100%;
 
 }
 body{
-    background-image: url("world-map.png");
+
+    background: url("world-map.png") center no-repeat;
 }
 
 
 header{
-    padding:15px;
+    font-size: 200%;
+    font-style: normal;
+    padding-right: 1em;
     background: rgba(0,0,0,0.4);
+    text-align: right;
 }
-.columns{
+.column{
+    display: block;
+    background: rgba(0,0,0,0.2);
+    float: left;
+    width:20%;
+    padding: 10px;
+    margin: 10px;
 
-    width:25%;
+}
+
+
+.sheet{
+    display: inline-table;
+    padding:25px;
+
+}
+.header{
+    padding: 15px;
+    margin: 25px;
 }
