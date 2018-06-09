@@ -1,0 +1,50 @@
+body{
+	margin: 0;
+
+
+}
+
+header, footer{
+    padding: 15px;
+	background: rgba(0,0,0,.8);
+
+}
+header{
+    text-align: right;
+}
+
+button{
+    padding: .8em;
+    background: red;
+    border: 2px solid white;
+    margin: 1em;
+}
+header  button{
+
+    height: 60%;
+    vertical-align: middle;
+}
+
+footer  button{
+
+    vertical-align: middle;
+    height:60%;
+}
+
+div > button{
+    color: white;
+    background-color: black;
+
+}
+p{
+    margin: 2em;
+    background: grey;
+}
+div {
+    border: solid;
+    border-color: white;
+    background: rgba(0,0,0,.8);
+
+    margin: 1em;
+    border: 5px solid red;
+}

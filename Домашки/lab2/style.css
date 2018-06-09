@@ -1,0 +1,18 @@
+
+html.body{
+    margin:0;
+
+}
+body{
+    background-image: url("world-map.png");
+}
+
+
+header{
+    padding:15px;
+    background: rgba(0,0,0,0.4);
+}
+.columns{
+
+    width:25%;
+}
